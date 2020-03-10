@@ -50,4 +50,13 @@ ballY = 100.0
     ballSpeedY *= -0.9
   }
 
+console.log("hello")
+
+
 }
+//function mousePressed() {
+//x = mouseX
+//y = mouseY
+
+
+//}
