@@ -50,4 +50,4 @@ ballY = 100.0
     ballSpeedY *= -0.9
   }
 
-
+}
