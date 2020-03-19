@@ -1,5 +1,85 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #150;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: yellow;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="https://sites.google.com/berkeley.net/bhsathletics/home">Berkeley High Sports!</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">My p5.js projects</a>
+    <div class="dropdown-content">
+      <a href="https://editor.p5js.org/sonja/sketches/lHEdbtvw"index.html>Rain of Colors!</a>
+      <a href="https://editor.p5js.org/sonja/sketches/RsiULR60"index.html>Bounce Back!</a>
+      <a href="https://editor.p5js.org/sonja/sketches/lxfngtb3"index.html>Satisfying Bounce!</a>
+      <a href="https://editor.p5js.org/sonja/sketches/ItseovAS"index.html>Paint!!</a>
+      <a href="https://editor.p5js.org/sonja/sketches/hfwbyEYEQ"index.html>Mondrian Art!</a>
+      
+    </div>
+  </li>
+</ul>
+
+<h3>This is my homepage</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
 
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
@@ -23,4 +103,4 @@
 <p><a href="https://bhs.berkeleyschools.net/student-activities-3/berkeley-high-clubs/">Here</a> is some clubs you can join</p>
 </body>
 
-</html>
+</html> -->
